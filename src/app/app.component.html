@@ -1,4 +1,31 @@
-<hello name="{{ name }}"></hello>
+<h1>Hello Angular</h1>
 <p>
-  Start editing to see some magic happen :)
+This is a minimal Angular application!
 </p>
+<p>
+What you see here is the output of <i>app.component.html</i>
+</p>
+<p>  
+The application is structured in overall styles, modules, components and services.<br>
+This minimal application has no service.
+</p>
+<p>
+The general styles, that are applied to the whole app are in the file <i>styles.scss</i>
+</p>
+<p>
+The entry point to the application is the index.html file in which the component <i>app</i> is displayed (&lt;app&gt;&lt;/app&gt;).<br>
+The main.ts file remains untouched it defines the bootstrapping (loading the <i>app.module.ts</i>).
+</p>  
+<p>
+A module <i>app.module.ts</i> bundles components that belopng together.<br>
+This application has exactly one component named <b><i>app</i></b>.
+</p>
+<p>
+A component consists of 3 files:
+</p>
+<ul>
+  <li><i><b>component-name</b>.component.html</i> - the components template - the UI.</li>
+  <li><i><b>component-name</b>.component.scss</i> - the components styles (sass).<br>
+  These styles are only applied to the component</li>
+  <li><i><b>component-name</b>.component.ts</i> - the components typescript code - the control logic.</li>
+</ul>
